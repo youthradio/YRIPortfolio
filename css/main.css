@@ -176,7 +176,7 @@ div {
 }
 
 .page{
-    
+
 }
 
 #P1{
@@ -184,5 +184,6 @@ div {
 }
 
 .header{
+    z-index: 2;
 }
 

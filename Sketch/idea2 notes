@@ -1,0 +1,28 @@
+The Youth Radio portfolio is a timeline based page that plots each YRI project on a basic timeline. Functionality wise, there's not much to talk about I don't think. The bare timeline it's self would be a responsive timeline based on either Timeline.js (https://timeline.knightlab.com/#examples) or vis.js (http://visjs.org/index.html#modules), whichever is more flexible in styling since the most critical factor here would be styling, I believe.
+
+
+Mobile
+-
+A)Navbar collapse
+B)Timeline
+C)Timeline plots
+D)Legal
+
+Desktop
+-
+A)Navbar collapse
+B)Sidebar
+C)Timeline
+D)Timeline plots
+E)Legal
+
+The mobile UI consists of a collapse menu and logo (A), the timeline (B), the timeline's plots (C), and the legal information (D).
+
+The timeline would be able to be swiped left and right. I haven't thought about zooming in and out but it wouldn't be something difficult to add into the UI, I think both timeline libraries are able to zoom in and out with mouse and hands input though.
+
+The plot points on the timeline are outlined with the YR color. It includes a marker under it (may not happen but there's no reason the outline plot can't) with the name of the project. You simply just tap / click it.
+
+Clicking a plot point would bring up the 'sidebar', but in the center of the screen. The top image would be a screenshot of the project, and it's clickable 
+
+Clicking the collapse menu / logo just slides down the two options from the existing YR site: Back To Youth Radio, and Our Blog. It's small making it able to just be a two button function: you click and choose, or you click and click the logo again.
+

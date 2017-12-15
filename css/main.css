@@ -141,6 +141,16 @@ div {
 
 }
 
+.photoGrid{
+    transform-style: preserve-3d;
+    transform: translateZ(20px);
+}
+
+#slideClose{
+    display: none;
+    z-index: 200;
+}
+
 .page{
     z-index: 1;
 }
@@ -157,7 +167,7 @@ div {
 }
 
 .logo-watch {
-    padding-top: 60px;
+    padding-top: 30px;
 }
 
 .scroll-contain {

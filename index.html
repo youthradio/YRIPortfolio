@@ -10,14 +10,17 @@
 	<body>
 		<!-- This project is designed to look forward into the future of YRI for new projects, especially during the moment I'm not here, so I'll do my best to explain what's all sitting here, including the CSS, the js files where all the data is meant to be, and more.
 
-		d-flex justify-content-center justify-content-md-start-->
+		d-flex justify-content-center justify-content-md-start ml-md-5-->
 		<div class="container-fluid">
 			<!-- Header + Menu -->
-			<div class="row d-flex justify-content-center justify-content-md-start ml-md-5 fixed-top header">
-				<img class="pt-2" width="40px" class="yrlogo img-fluid" src="img/YR_logo_small.png">
-			</div>
+			
 			<!-- Main body -->
 			<div class="row page-container bg-light">
+				<div class="row d-flex justify-content-start header">
+				<div class="col-2">
+				<img class="pt-2" width="40px" class="yrlogo img-fluid" src="img/YR_logo_small.png">
+				</div>
+			</div>
 				<!-- Page one -->
 				<div id="Home" class="One logo-watch">
 					<!-- logo-watch gives the top content some space for the logo and menu to sit. -->
@@ -26,7 +29,7 @@
 					</div>
 					<div class="row">
 						<div class="display-4 yrid">
-							YOUTH RADIO <span class="text-primary">INTERACTIVE</span>
+							YOUTH RADIO <span style="color: #65BCBF">INTERACTIVE</span>
 						</div>
 						
 					</div>
@@ -35,23 +38,23 @@
 							<p>Where young people combine programming and journalism to develop new tools, and tell dynamic stories about issues facing their environment and their community.</p>
 						</div>
 						</div>
-						<div class="row d-flex justify-content-end">
+						<div class="row d-flex justify-content-center">
 						<!-- This image collage here has a 3D tilting library connected to it, for more information, visit: http://gijsroge.github.io/tilt.js/ -->
-						<div style="" class="col-12 mt-4 mt-md-2 col-md-8 d-flex">
+						<div style="" class="photoGrid col-12 mt-4 mt-md-4 col-lg-8 d-flex">
 							<div class="row">
 							<div class="col-4">
-								<a href="#">
-									<img data-tilt class="img-fluid tilt" src="img/abstract.jpg">
+								<a href="#P1">
+									<img id="pic1" data-tilt class="img-fluid tilt" src="img/ss/Shot1.png">
 								</a>
 							</div>
 							<div class="col-4">
-								<a href="#">
-									<img data-tilt class="img-fluid tilt" src="img/abstract.jpg">
+								<a href="#P2">
+									<img id="pic2" data-tilt class="img-fluid tilt" src="img/ss/Shot2.png">
 								</a>
 							</div>
 							<div class="col-4">
-								<a href="#">
-									<img data-tilt class="img-fluid tilt" src="img/abstract.jpg">
+								<a href="#P3">
+									<img id="pic3" data-tilt class="img-fluid tilt" src="img/ss/Shot3.png">
 								</a>
 							</div>
 						</div>
@@ -60,18 +63,18 @@
 						<div style="" class="col-12 mt-4 mt-md-2 col-lg-8 d-flex">
 							<div class="row">
 							<div class="col-4">
-								<a href="#">
-									<img data-tilt class="img-fluid tilt" src="img/abstract.jpg">
+								<a href="#P4">
+									<img id="pic4" data-tilt class="img-fluid tilt" src="img/ss/Shot5.png">
 								</a>
 							</div>
 							<div class="col-4">
-								<a href="#">
-									<img data-tilt class="img-fluid tilt" src="img/abstract.jpg">
+								<a href="#P5">
+									<img id="pic5" data-tilt class="img-fluid tilt" src="img/ss/Shot6.png">
 								</a>
 							</div>
 							<div class="col-4">
-								<a href="#">
-									<img data-tilt class="img-fluid tilt" src="img/abstract.jpg">
+								<a href="#P6">
+									<img id="pic6" data-tilt class="img-fluid tilt" src="img/ss/Shot7.png">
 								</a>
 							</div>
 						</div>
@@ -80,18 +83,18 @@
 						<div style="" class="col-12 mt-4 mt-md-2 col-lg-8 d-flex">
 							<div class="row">
 							<div class="col-4">
-								<a href="#">
-									<img data-tilt class="img-fluid tilt" src="img/abstract.jpg">
+								<a href="#P7">
+									<img id="pic7" data-tilt class="img-fluid tilt" src="img/ss/Shot8.png">
 								</a>
 							</div>
 							<div class="col-4">
-								<a href="#">
-									<img data-tilt class="img-fluid tilt" src="img/abstract.jpg">
+								<a href="#P8">
+									<img id="pic8" data-tilt class="img-fluid tilt" src="img/ss/Shot9.png">
 								</a>
 							</div>
 							<div class="col-4">
-								<a href="#">
-									<img data-tilt class="img-fluid tilt" src="img/abstract.jpg">
+								<a href="#P9">
+									<img id="pic9" data-tilt class="img-fluid tilt" src="img/ss/Shot11.png">
 								</a>
 							</div>
 						</div>
@@ -100,7 +103,7 @@
 						<div style="" class="col-12 mt-4 mt-md-2 col-lg-8 d-flex justify-content-center">
 						<div class="row">
 							<div class="col-12">
-							<small class="text-muted">This material is based upon work supported by the National Science Foundation under Grant No. DRL-1513282 and Grant No. DRL-1614239. <br><br> Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation. </small>
+							<small class="text-muted">This material is based upon work supported by the National Science Foundation under Grant No. DRL-1513282 and Grant No. DRL-1614239. <br> Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation. </small>
 						</div>
 						</div>
 					</div>
@@ -114,6 +117,13 @@
 			<!-- Page two -->
 			<div class="row page-container text-light">
 				<div class="slideshow-container">
+					<div class="slideshow-control d-flex justify-content-center">
+
+					<button id="slideClose" type="button" class="close" aria-label="Close">
+					  <span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+
 					<div id="slides">
 						<img src="img/abstract.jpg">
 						<img src="img/abstract.jpg">
@@ -123,7 +133,7 @@
 					</div>
 				</div>
 				<a href="#P1"></a>
-				<div id="P1" class="Two page logo-watch">
+				<div id="P1" class="Two page logo-watch text-dark">
 					<!-- Although this is ID'd 'P1', this is actually the second page. Only refer to '.Two', '.Three' and so on for CSS purposes and #P1, #P2 and so on for data purposes-->
 					
 					<div class="row crumb text-lowercase">
@@ -217,37 +227,19 @@
 							</div>
 						</div>
 					</div>
+
+
 					
 				</div>
 				<script src="js/jquery.js"></script>
 				<script src="js/bootstrap.js"></script>
-				<script src="js/main.js"></script>
 				
 				<script src="js/tilt.jquery.js"></script>
 				<script src="js/jquery.slides.js"></script>
 				<script type="text/javascript">
-				const tilt = $('.js-tilt').tilt();
-					$('.tilt').tilt({
-				scale: 1.3
-				})
-				$(function(){
-				$("#slides").slidesjs({
-				width: 700,
-				height: 1200,
 				
-				play: {
-							active: true,
-				effect: "slide",
-				interval: 3000,
-				auto: true,
-				},
-				effect: {
-				slide: {
-					speed: 500,
-				},
-				},
-				});
-				});
 				</script>
+
+				<script src="js/main.js"></script>
 			</body>
 		</html>

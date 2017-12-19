@@ -30,9 +30,11 @@ $(function() {
 
 
 $("#slideShow").click(function() {
+    $('.unBlur').toggleClass('unBlur-active');
     console.log("Slideshow activated");
     $(".page").fadeToggle(200);
     $("#slideClose").fadeToggle(200);
+
 
 });
 
@@ -40,4 +42,17 @@ $("#slideClose").click(function() {
     console.log("Slideshow deactivated");
     $(".page").fadeToggle(200);
     $("#slideClose").fadeToggle(200);
+    $('.unBlur').toggleClass('unBlur-active');
+});
+
+$("#hPic1").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#P1").offset().top
+    }, 500);
+});
+
+$("#hPic2").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#P2").offset().top
+    }, 500);
 });

@@ -11,21 +11,22 @@
 		<!-- This project is designed to look forward into the future of YRI for new projects, especially during the moment I'm not here, so I'll do my best to explain what's all sitting here, including the CSS, the js files where all the data is meant to be, and more.
 		d-flex justify-content-center justify-content-md-start ml-md-5-->
 		<div class="container-fluid">
+			<!--<button id="ugh">click</button>-->
 			<!-- Header + Menu -->
 			
 			<!-- Main body -->
-			<div class="row page-container bg-light">
-				<div class="row d-flex justify-content-start header">
+
+			<div class="row header d-flex">
 					
 
-					<nav class="navbar navbar-expand-lg navbar-light bg-light">
+					<nav class="navbar navbar-expand-lg position-fixed navbar-light">
 						<img class="d-none d-lg-inline" width="40px" class="yrlogo img-fluid" src="img/YR_logo_small.png">
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
 						<span class=""><img class="" width="40px" class="yrlogo img-fluid" src="img/YR_logo_small.png"></span>
 						</button>
 						<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 							<a class="navbar-brand" href="#"></a>
-							<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+							<ul id="navContent" class="navbar-nav bg-sm mr-auto mt-2 mt-lg-0">
 								<li class="nav-item active">
 									<a data-toggle="collapse" data-target=".navbar-collapse.show" class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
 								</li>
@@ -54,17 +55,18 @@
 							</ul>
 						</div>
 					</nav>
-					<!--<div class="col-2">
-											<img class="pt-2" width="40px" class="yrlogo img-fluid" src="img/YR_logo_small.png">
-					</div>-->
 				</div>
+
+
+			<div class="row page-container logo-watch bg-light">
+				
 				<!-- Page one -->
 				<div id="Home" class="One logo-watch">
 					<!-- logo-watch gives the top content some space for the logo and menu to sit. -->
 					<div class="row crumb text-lowercase">
 						yri / home
 					</div>
-					<div class="row">
+					<div class="row d-flex">
 						<div class="col-12 col-lg-3">
 							<div class="col-4">
 								<div class="display-4 yrid">
@@ -76,10 +78,10 @@
 								<p>Where young people combine programming and journalism to develop new tools, and tell dynamic stories about issues facing their environment and their community.</p>
 							</div>
 						</div>
-						<div class="col-12 col-lg-9">
-							<div class="row d-flex justify-content-start justify-content-lg-end">
+						<div class="col-12 col-lg-9 d-none d-md-inline">
+							<div class="row gallery">
 								<!-- This image collage here has a 3D tilting library connected to it, for more information, visit: http://gijsroge.github.io/tilt.js/ -->
-								<div style="" class="photoGrid  d-flex">
+								<div style="" class="photoGrid">
 									<div class="row">
 										<div class="col-4 col-md-3">
 											<img id="hPic1" data-tilt class="img-fluid tilt" src="img/ss/Shot1.png">
@@ -182,18 +184,18 @@
 			</div>
 			
 			<!-- Page two -->
-			<div class="row page-container text-light">
+			<div class="row page-container logo-watch text-light">
 				
 				<a href="#P1"></a>
 				<div id="P1" class="Two page logo-watch text-dark">
 					<!-- Although this is ID'd 'P1', this is actually the second page. Only refer to '.Two', '.Three' and so on for CSS purposes and #P1, #P2 and so on for data purposes-->
 					
 					<div class="row crumb text-lowercase">
-						yri / projects /<span class="pl-2" id="P1Title"> null</span>
+						yri / projects / <span class="pl-2" id="P1TitleC"> null</span>
 					</div>
 					<div class="row">
-						<div id="P1Title" class="display-4 yrid">
-							PROJECT TITLE
+						<div id="" class="display-4 text-uppercase yrid">
+							<span id="P1Title">PROJECT TITLE</span>
 						</div></div>
 						<div class="row">
 							<div id="P1Accordian" data-children=".item">
@@ -208,16 +210,16 @@
 													<!-- space holder -->
 												</div>
 												<div class="col-4">
-													<img data-tilt class="img-fluid tilt" src="img/ss/Shot2.png">
+													<img id="P1Shot1" data-tilt class="img-fluid tilt" src="img/ss/Shot2.png">
 												</div>
 												<div class="col-4">
-													<img data-tilt class="img-fluid tilt" src="img/ss/Shot3.png">
+													<img id="P1Shot2" data-tilt class="img-fluid tilt" src="img/ss/Shot3.png">
 												</div>
 												<div class="col-4">
-													<img data-tilt class="img-fluid tilt" src="img/ss/Shot3.png">
+													<img id="P1Shot3" data-tilt class="img-fluid tilt" src="img/ss/Shot3.png">
 												</div>
 												<div class="col-4">
-													<img data-tilt class="img-fluid tilt" src="img/ss/Shot3.png">
+													<img id="P1Shot4" data-tilt class="img-fluid tilt" src="img/ss/Shot3.png">
 												</div>
 											</div>
 										</div>
@@ -227,7 +229,7 @@
 						</div>
 						<div class="row pt-4">
 							<div class="col-12 col-md-6">
-								<p id="p1Desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
+								<p id="P1Desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
 									eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
 									montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
 									eu, pretium quis, sem. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
@@ -241,371 +243,22 @@
 									-<br>
 								</div>
 								<ul class="">
-									<li>Wisteria Ravenclaw</li>
-									<li>Gideon Guernsey-Marmaduke</li>
-									<li>Pelican Steve</li>
-									<li>Hermann P. Schnitzel</li>
-									<li>Max Conversion</li>
-									<li>Abraham Pigeon</li>
+									<li id="P1Credit1">Wisteria Ravenclaw</li>
+									<li id="P1Credit2">Gideon Guernsey-Marmaduke</li>
+									<li id="P1Credit3">Pelican Steve</li>
+									<li id="P1Credit4">Hermann P. Schnitzel</li>
+									<li id="P1Credit5">Max Conversion</li>
+									<li id="P1Credit6">Abraham Pigeon</li>
 								</ul>
 							</div>
 							<div class="h1">
-								<u>Visit <span id="projectTitle" class="pl-1">null</span></u>
+								<a id="P1Link" href=""><u>Visit <span id="projectTitle" class="pl-1">null</span></u></a>
 							</div>
 							
 						</div>
 					</div>
 				</div>
-				<!-- Page three -->
-				<div class="row page-container bg-info text-light">
-					<div id="P2" class="Three logo-watch">
-						<a href="#P2"></a>
-						<div class="row crumb text-lowercase">
-							yri / projects /<span class="pl-2" id="projectTitle"> null</span>
-						</div>
-						<div class="row">
-							<div class="display-4 yrid">
-								PROJECT TITLE
-							</div>
-							<div class="row">
-									<object type="image/svg+xml" data="img/app-store-w.svg">Your browser does not support SVG</object>
-									<object type="image/svg+xml" data="img/play-badge.svg">Your browser does not support SVG</object>
-								</div>
-							
-						</div>
-						<div class="row pt-4">
-							<div class="col-12 col-md-6">
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-									eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-									montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-									eu, pretium quis, sem. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-									eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-									montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-								eu, pretium quis, sem.</p>
-								
-								<div class="col-12 col-md-6 pt-2 lead">
-									<div class="crumb">
-										credits<br>
-										-<br>
-									</div>
-									<ul class="">
-										<li>Wisteria Ravenclaw</li>
-										<li>Gideon Guernsey-Marmaduke</li>
-										<li>Pelican Steve</li>
-										<li>Hermann P. Schnitzel</li>
-										<li>Max Conversion</li>
-										<li>Abraham Pigeon</li>
-									</ul>
-								</div>
-							</div>
-							
-							<div class="col-12 col-md-6 text-center text-md-right float-right">
-								<img class="img-fluid d-none d-md-inline" src="img/pframe.png">
-							</div>
-							
-						</div>
-					</div>
-				</div>
-				<!-- Page four -->
-				<div class="row page-container ">
-					
-					<a href="#P1"></a>
-					<div id="P1" class="Two page logo-watch bg-dark text-light">
-						<!-- Although this is ID'd 'P1', this is actually the second page. Only refer to '.Two', '.Three' and so on for CSS purposes and #P1, #P2 and so on for data purposes-->
-						
-						<div class="row crumb text-lowercase">
-							yri / projects /<span class="pl-2" id="P1Title"> null</span>
-						</div>
-						<div class="row">
-							<div id="P1Title" class="display-4 yrid">
-								PROJECT TITLE
-							</div></div>
-							<div class="row">
-								<div id="P3Accordian" data-children=".item">
-								<div class="item crumb">
-									<a class="text-dark" data-toggle="collapse" data-parent="#P3Accordian" href="#P3Shots" aria-expanded="true" aria-controls="P3Shots">
-										Show more
-									</a>
-									<div id="P3Shots" class="collapse" role="tabpanel">
-										<div class="mb-3 mt-3">
-											<div style="width: 100%; overflow-y: hidden; overflow-x: scroll;" class="d-flex justify-content-center">
-												<div class="col-4">
-													<!-- space holder -->
-												</div>
-												<div class="col-4">
-													<img data-tilt class="img-fluid tilt" src="img/ss/Shot2.png">
-												</div>
-												<div class="col-4">
-													<img data-tilt class="img-fluid tilt" src="img/ss/Shot3.png">
-												</div>
-												<div class="col-4">
-													<img data-tilt class="img-fluid tilt" src="img/ss/Shot3.png">
-												</div>
-												<div class="col-4">
-													<img data-tilt class="img-fluid tilt" src="img/ss/Shot3.png">
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							</div>
-							<div class="row pt-4">
-								<div class="col-12 col-md-6">
-									<p id="p1Desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-										eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-										montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-										eu, pretium quis, sem. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-										eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-										montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-									eu, pretium quis, sem.</p>
-								</div>
-								<div class="col-12 col-md-6 text-right mt-0 pt-3 pt-md-5 lead">
-									<div class="crumb">
-										credits<br>
-										-<br>
-									</div>
-									<ul class="">
-										<li>Wisteria Ravenclaw</li>
-										<li>Gideon Guernsey-Marmaduke</li>
-										<li>Pelican Steve</li>
-										<li>Hermann P. Schnitzel</li>
-										<li>Max Conversion</li>
-										<li>Abraham Pigeon</li>
-									</ul>
-								</div>
-								<div class="h1">
-									<u>Visit <span id="projectTitle" class="pl-1">null</span></u>
-								</div>
-								
-							</div>
-						</div>
-					</div>
-					<!-- Page five -->
-					<div class="row page-container">
-						
-						<a href="#P1"></a>
-						<div id="P1" class="Two page logo-watch bg-danger text-light">
-							<!-- Although this is ID'd 'P1', this is actually the second page. Only refer to '.Two', '.Three' and so on for CSS purposes and #P1, #P2 and so on for data purposes-->
-							
-							<div class="row crumb text-lowercase">
-								yri / projects /<span class="pl-2" id="P1Title"> null</span>
-							</div>
-							<div class="row">
-								<div id="P1Title" class="display-4 yrid">
-									PROJECT TITLE
-								</div></div>
-								<div class="row">
-									<div id="exampleAccordion" data-children=".item">
-										<div class="item crumb">
-											<a class="text-dark" data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion1" aria-expanded="true" aria-controls="exampleAccordion1">
-												Show more
-											</a>
-											<div id="exampleAccordion1" class="collapse" role="tabpanel">
-												<div class="mb-3 mt-3">
-													<div style="width: 100%; overflow-y: hidden; overflow-x: scroll;" class="d-flex justify-content-center">
-														<div class="col-4">
-															<!-- space holder -->
-														</div>
-														<div class="col-4">
-															<img data-tilt class="img-fluid tilt" src="img/ss/Shot2.png">
-														</div>
-														<div class="col-4">
-															<img data-tilt class="img-fluid tilt" src="img/ss/Shot3.png">
-														</div>
-														<div class="col-4">
-															<img data-tilt class="img-fluid tilt" src="img/ss/Shot3.png">
-														</div>
-														<div class="col-4">
-															<img data-tilt class="img-fluid tilt" src="img/ss/Shot3.png">
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="row pt-4">
-									<div class="col-12 col-md-6">
-										<p id="p1Desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-											eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-											montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-											eu, pretium quis, sem. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-											eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-											montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-										eu, pretium quis, sem.</p>
-									</div>
-									<div class="col-12 col-md-6 text-right mt-0 pt-3 pt-md-5 lead">
-										<div class="crumb">
-											credits<br>
-											-<br>
-										</div>
-										<ul class="">
-											<li>Wisteria Ravenclaw</li>
-											<li>Gideon Guernsey-Marmaduke</li>
-											<li>Pelican Steve</li>
-											<li>Hermann P. Schnitzel</li>
-											<li>Max Conversion</li>
-											<li>Abraham Pigeon</li>
-										</ul>
-									</div>
-									<div class="h1">
-										<u>Visit <span id="projectTitle" class="pl-1">null</span></u>
-									</div>
-									
-								</div>
-							</div>
-						</div>
-						<!-- Page six -->
-						<div class="row page-container text-light">
-							
-							<a href="#P1"></a>
-							<div id="P1" class="Two page logo-watch text-dark">
-								<!-- Although this is ID'd 'P1', this is actually the second page. Only refer to '.Two', '.Three' and so on for CSS purposes and #P1, #P2 and so on for data purposes-->
-								
-								<div class="row crumb text-lowercase">
-									yri / projects /<span class="pl-2" id="P1Title"> null</span>
-								</div>
-								<div class="row">
-									<div id="P1Title" class="display-4 yrid">
-										PROJECT TITLE
-									</div></div>
-									<div class="row">
-										<div id="exampleAccordion" data-children=".item">
-											<div class="item crumb">
-												<a class="text-dark" data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion1" aria-expanded="true" aria-controls="exampleAccordion1">
-													Show more
-												</a>
-												<div id="exampleAccordion1" class="collapse" role="tabpanel">
-													<div class="mb-3 mt-3">
-														<div style="width: 100%; overflow-y: hidden; overflow-x: scroll;" class="d-flex justify-content-center">
-															<div class="col-4">
-																<!-- space holder -->
-															</div>
-															<div class="col-4">
-																<img data-tilt class="img-fluid tilt" src="img/ss/Shot2.png">
-															</div>
-															<div class="col-4">
-																<img data-tilt class="img-fluid tilt" src="img/ss/Shot3.png">
-															</div>
-															<div class="col-4">
-																<img data-tilt class="img-fluid tilt" src="img/ss/Shot3.png">
-															</div>
-															<div class="col-4">
-																<img data-tilt class="img-fluid tilt" src="img/ss/Shot3.png">
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="row pt-4">
-										<div class="col-12 col-md-6">
-											<p id="p1Desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-												eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-												montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-												eu, pretium quis, sem. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-												eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-												montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-											eu, pretium quis, sem.</p>
-										</div>
-										<div class="col-12 col-md-6 text-right mt-0 pt-3 pt-md-5 lead">
-											<div class="crumb">
-												credits<br>
-												-<br>
-											</div>
-											<ul class="">
-												<li>Wisteria Ravenclaw</li>
-												<li>Gideon Guernsey-Marmaduke</li>
-												<li>Pelican Steve</li>
-												<li>Hermann P. Schnitzel</li>
-												<li>Max Conversion</li>
-												<li>Abraham Pigeon</li>
-											</ul>
-										</div>
-										<div class="h1">
-											<u>Visit <span id="projectTitle" class="pl-1">null</span></u>
-										</div>
-										
-									</div>
-								</div>
-							</div>
-							<!-- Page seven -->
-							<div class="row page-container">
-								
-								<a href="#P1"></a>
-								<div id="P1" class="Two page logo-watch bg-info text-light">
-									<!-- Although this is ID'd 'P1', this is actually the second page. Only refer to '.Two', '.Three' and so on for CSS purposes and #P1, #P2 and so on for data purposes-->
-
-									<div class="row crumb text-lowercase">
-										yri / projects /<span class="pl-2" id="P1Title"> null</span>
-									</div>
-									<div class="row">
-										<div id="P1Title" class="display-4 yrid">
-											PROJECT TITLE
-										</div></div>
-										<div class="row">
-											<div id="exampleAccordion" data-children=".item">
-												<div class="item crumb">
-													<a class="text-dark" data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion1" aria-expanded="true" aria-controls="exampleAccordion1">
-														Show more
-													</a>
-													<div id="exampleAccordion1" class="collapse" role="tabpanel">
-														<div class="mb-3 mt-3">
-															<div style="width: 100%; overflow-y: hidden; overflow-x: scroll;" class="d-flex justify-content-center">
-																<div class="col-4">
-																	<!-- space holder -->
-																</div>
-																<div class="col-4">
-																	<img data-tilt class="img-fluid tilt" src="img/ss/Shot2.png">
-																</div>
-																<div class="col-4">
-																	<img data-tilt class="img-fluid tilt" src="img/ss/Shot3.png">
-																</div>
-																<div class="col-4">
-																	<img data-tilt class="img-fluid tilt" src="img/ss/Shot3.png">
-																</div>
-																<div class="col-4">
-																	<img data-tilt class="img-fluid tilt" src="img/ss/Shot3.png">
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="row pt-4">
-											<div class="col-12 col-md-6">
-												<p id="p1Desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-													eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-													montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-													eu, pretium quis, sem. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-													eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-													montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-												eu, pretium quis, sem.</p>
-											</div>
-											<div class="col-12 col-md-6 text-right mt-0 pt-3 pt-md-5 lead">
-												<div class="crumb">
-													credits<br>
-													-<br>
-												</div>
-												<ul class="">
-													<li>Wisteria Ravenclaw</li>
-													<li>Gideon Guernsey-Marmaduke</li>
-													<li>Pelican Steve</li>
-													<li>Hermann P. Schnitzel</li>
-													<li>Max Conversion</li>
-													<li>Abraham Pigeon</li>
-												</ul>
-											</div>
-											<div class="h1">
-												<u>Visit <span id="projectTitle" class="pl-1">null</span></u>
-											</div>
-											
-										</div>
-									</div>
-								</div>
+				
 								
 								</div><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 								<script src="js/jquery.js"></script>
@@ -616,6 +269,7 @@
 								<script type="text/javascript">
 								
 								</script>
+								<script src="js/data.js"></script>
 								<script src="js/main.js"></script>
 							</body>
 						</html>

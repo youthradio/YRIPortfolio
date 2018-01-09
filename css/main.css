@@ -192,7 +192,7 @@ div {
 }
 
 .logo-watch {
-    padding-top: 30px;
+    padding-top: 48px;
 }
 
 .scroll-contain {
@@ -210,6 +210,10 @@ div {
 	letter-spacing: 3px;
 }
 
+.gallery{
+  
+}
+
 .page{
 
 }
@@ -220,12 +224,16 @@ div {
 
 .header{
     z-index: 2;
+    position: fixed;
+    margin-left: 2%;
+    margin-top: 0.4%;
 }
 
 .dropdown-item{
   line-height: 15px;
-  font-size: 15px !important;
+  font-size: 13px !important;
   z-index: 200;
+  padding: 0.25rem 0.5rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -241,7 +249,19 @@ div {
     line-height: 120%;
   }
 
-  .crumb {
+  .bg-sm{
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+  }
+
+  .nav-item{
+    font-size: 13px;
+    padding-left: 7px;
+  }
+
+  .crumb { 
     font-size: 0.7rem !important;
   }
 

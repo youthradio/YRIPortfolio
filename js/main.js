@@ -124,7 +124,7 @@ $(window).scroll(function() {
     var height = $(window).scrollTop();
 
     if(height  > 400) {
-        $("#navContent").fadeIn(200);
+        $("#navContent").fadeIn(200).css("display","flex");
     }
 
     if (height  < 400) {

@@ -115,6 +115,10 @@ div {
 .yrlogo{
 }
 
+#navContent{
+  display: none;
+}
+
 #slides {
     z-index: 0;
 
@@ -210,9 +214,7 @@ div {
 	letter-spacing: 3px;
 }
 
-.gallery{
-  
-}
+
 
 .page{
 
@@ -248,6 +250,12 @@ div {
   .page-container ul {
     line-height: 120%;
   }
+
+  .gallery{
+  height: 300px;
+  overflow-y: scroll; 
+  overflow-x: hidden;
+}
 
   .bg-sm{
     background-color: #fff;

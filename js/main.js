@@ -120,6 +120,19 @@ $("#hPic7").click(function() {
     $("#P1Desc").text(projectDescriptions.P7);
 });
 
+$(window).scroll(function() {
+    var height = $(window).scrollTop();
+
+    if(height  > 400) {
+        $("#navContent").fadeIn(200);
+    }
+
+    if (height  < 400) {
+        $("#navContent").fadeOut(200);
+    }
+});
+
 $("#ugh").click(function() {
     $("#navContent").fadeToggle(200);
+    $("#mobileToggle").fadeToggle(200);
 });

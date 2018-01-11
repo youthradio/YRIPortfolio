@@ -70,8 +70,7 @@
 .col-xl-12,
 .col-xl,
 .col-xl-auto {
-   padding-right: 0%;
-     padding-left: 0%;
+    padding-left: 0%;
 }
 
 html,
@@ -80,13 +79,10 @@ body {
     width: 100%;
 }
 
-.lilFont{
-  font-size:16px;
+div {
+    /*border: 1px solid black;*/
 }
-/*div {
-    border: 1px solid black;
-}
-*/
+
 
 
 .page-container,
@@ -256,7 +252,7 @@ body {
   }
 
   .gallery{
-  height: 600px;
+  height: 300px;
   overflow-y: scroll; 
   overflow-x: hidden;
 }

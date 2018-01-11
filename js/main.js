@@ -58,6 +58,7 @@ $("#hPic1").click(function() {
     $("#P1TitleC").text(projectTiles.P1);
     $("#P1Title").text(projectTiles.P1);
     $("#P1Desc").text(projectDescriptions.P1);
+    document.getElementById("P1Link").href = "http://google.com";
 });
 
 $("#hPic2").click(function() {
@@ -119,6 +120,8 @@ $("#hPic7").click(function() {
     $("#P1Title").text(projectTiles.P7);
     $("#P1Desc").text(projectDescriptions.P7);
 });
+
+
 
 $(window).scroll(function() {
     var height = $(window).scrollTop();

@@ -27,3 +27,13 @@ var projectCredits = {
 	P6:"Run 4 Prez",
 	P7:"West Side Stories",
 }
+
+var projectLink = {
+	P1:"http://google.com",
+	P2:"http://google.com",
+	P3:"http://google.com",
+	P4:"http://google.com",
+	P5:"http://google.com",
+	P6:"http://google.com",
+	P7:"http://google.com",
+}

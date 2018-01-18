@@ -119,9 +119,7 @@ body {
 .yrlogo{
 }
 
-#navContent{
-  display: none;
-}
+#navContent{}
 
 #slides {
     z-index: 0;

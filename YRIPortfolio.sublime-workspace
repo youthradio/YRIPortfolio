@@ -172,10 +172,10 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "js/tilt.jquery.js",
 			"settings":
 			{
-				"buffer_size": 11944,
+				"buffer_size": 10286,
 				"line_ending": "Unix"
 			}
 		}
@@ -236,7 +236,8 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/shagia/Documents/development/YRIPortfolio"
+		"/Users/shagia/Documents/development/YRIPortfolio",
+		"/Users/shagia/Documents/development/YRIPortfolio/js"
 	],
 	"file_history":
 	[
@@ -314,11 +315,11 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "js/tilt.jquery.js",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 11944,
+						"buffer_size": 10286,
 						"regions":
 						{
 						},
@@ -331,8 +332,9 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

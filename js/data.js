@@ -23,6 +23,70 @@ var projectDescriptions = {
 
 }
 
+var P1Images = {
+	I1:"img/ss/Shot2.png",
+	I2:"img/ss/Shot3.png",
+	I3:"img/ss/Shot4.png",
+	I4:"img/ss/Shot5.png",
+	I5:"img/ss/Shot6.png",
+}
+var P2Images = {
+	I1:"img/ss/Shot2.png",
+	I2:"img/ss/Shot3.png",
+	I3:"img/ss/Shot4.png",
+	I4:"img/ss/Shot5.png",
+	I5:"img/ss/Shot6.png",
+}
+var P3Images = {
+	I1:"img/ss/Shot2.png",
+	I2:"img/ss/Shot3.png",
+	I3:"img/ss/Shot4.png",
+	I4:"img/ss/Shot5.png",
+	I5:"img/ss/Shot6.png",
+}
+var P4Images = {
+	I1:"img/ss/Shot2.png",
+	I2:"img/ss/Shot3.png",
+	I3:"img/ss/Shot4.png",
+	I4:"img/ss/Shot5.png",
+	I5:"img/ss/Shot6.png",
+}
+var P5Images = {
+	I1:"img/ss/Shot2.png",
+	I2:"img/ss/Shot3.png",
+	I3:"img/ss/Shot4.png",
+	I4:"img/ss/Shot5.png",
+	I5:"img/ss/Shot6.png",
+}
+var P6Images = {
+	I1:"img/ss/Shot2.png",
+	I2:"img/ss/Shot3.png",
+	I3:"img/ss/Shot4.png",
+	I4:"img/ss/Shot5.png",
+	I5:"img/ss/Shot6.png",
+}
+var P7Images = {
+	I1:"img/ss/Shot2.png",
+	I2:"img/ss/Shot3.png",
+	I3:"img/ss/Shot4.png",
+	I4:"img/ss/Shot5.png",
+	I5:"img/ss/Shot6.png",
+}
+var P8Images = {
+	I1:"img/ss/Shot2.png",
+	I2:"img/ss/Shot3.png",
+	I3:"img/ss/Shot4.png",
+	I4:"img/ss/Shot5.png",
+	I5:"img/ss/Shot6.png",
+}
+var P9Images = {
+	I1:"img/ss/Shot2.png",
+	I2:"img/ss/Shot3.png",
+	I3:"img/ss/Shot4.png",
+	I4:"img/ss/Shot5.png",
+	I5:"img/ss/Shot6.png",
+}
+
 //There's a better way of doing this, this is plain lazy
 
 var p1Credits = {

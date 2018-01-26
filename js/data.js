@@ -1,13 +1,13 @@
 var projectTiles = {
-	P1:"No Excuses",
+	P1:"5 Dollar Challenge",
 	P2:"GENXYZ",
 	P3:"Mood Ring",
 	P4:"Don't Get Faked",
 	P5:"Little Rock 9",
 	P6:"Run 4 Prez",
-	P7:"West Side Stories",
+	P7:"Unlocked",
 	P8:"No Excuses",
-	P9:"Little Rock 9",
+	P9:"A Journey Through Foster Care",
 }
 
 var projectDescriptions = {

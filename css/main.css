@@ -74,6 +74,11 @@
      padding-left: 0%;
 }
 
+.nounderline a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
 html,
 body {
     height: 100%;
@@ -171,6 +176,11 @@ body {
 
 }
 
+#pageBG {
+  
+  background-size: cover !important;
+}
+
 .photoGrid{
     transform-style: preserve-3d;
     transform: translateZ(20px);
@@ -243,23 +253,13 @@ body {
 @media screen and (max-width: 768px) {
 .page-container,
 .container-fluid {
-  height: 100%;
+  height: 120%;
 }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
 
-  .page-container ul {
-    line-height: 120%;
-  }
-
-  .gallery{
-  height: 600px;
-  overflow-y: scroll; 
-  overflow-x: hidden;
-}
-
-  .bg-sm{
+.bg-sm{
     background-color: #fff;
     background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, 0.15);
@@ -270,6 +270,28 @@ body {
     font-size: 13px;
     padding-left: 7px;
   }
+
+
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+  .page-container ul {
+    line-height: 101%;
+  }
+
+  .gallery{
+  height: 300px;
+  overflow-y: scroll; 
+  overflow-x: hidden;
+}
+
+  
+
+  
 
   .crumb { 
     font-size: 0.7rem !important;

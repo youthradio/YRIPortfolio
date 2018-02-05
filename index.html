@@ -17,7 +17,7 @@
 	<body>
 		<!-- This project is designed to look forward into the future of YRI for new projects, especially during the moment I'm not here, so I'll do my best to explain what's all sitting here, including the CSS, the js files where all the data is meant to be, and more.
 		d-flex justify-content-center justify-content-md-start ml-md-5-->
-		<div class="container-fluid">
+		<div id="home" class="container-fluid">
 			<!--<button id="ugh">click</button>-->
 			<!-- Header + Menu -->
 			
@@ -33,7 +33,7 @@
 						</button>
 						<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 							<a class="navbar-brand" href="#"></a>
-							<ul id="navContent" class="navbar-nav bg-sm mr-auto mt-2 mt-lg-0">
+							<ul id="navContent" class="navbar-nav d-flex justify-content-center bg-sm mr-auto mt-2 mt-lg-0">
 								<li class="nav-item active">
 									<a data-toggle="collapse" data-target=".navbar-collapse.show" class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
 								</li>
@@ -58,6 +58,11 @@
 								</li>
 								<li class="nav-item">
 									<a class="nav-link" href="https://youthradio.org/category/apps/">OUR BLOG</a>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link" id="back">
+									<img src="img/img/btt_new.png" class="img-fluid ml-2"></img>
+									</a>
 								</li>
 							</ul>
 						</div>
@@ -237,8 +242,8 @@
 
 					<!-- Although this is ID'd 'P1', this is actually the second page. Only refer to '.Two', '.Three' and so on for CSS purposes and #P1, #P2 and so on for data purposes-->
 					
-					<div class="row crumb text-lowercase">
-						yri / projects / <span class="pl-2" id="P1TitleC"> null</span>
+					<div class="row crumb nounderline text-lowercase">
+					<!-- <a href="#" id="prevPro" class="font-weight-bold">back <</a>--><span class="">yri / projects / </span> <span class="pl-2" id="P1TitleC"> null</span> <!--<a href="#" id="nextPro" class="pl-2 font-weight-bold"> > next</a>-->
 					</div>
 					<div class="row">
 						<div id="" class="display-4 text-uppercase yrid">

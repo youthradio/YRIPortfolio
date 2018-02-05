@@ -151,6 +151,10 @@ body {
     -moz-transition: all 1s ease;
 }
 
+#back{
+  display: none;
+}
+
 .unBlur-active{
     
     filter: blur(0px) !important;

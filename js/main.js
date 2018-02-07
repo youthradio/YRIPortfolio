@@ -14,8 +14,26 @@ $("img").click(function() {
 $("#pageBG").show();
 });
 $('.tilt').tilt({
-    scale: 0.96
+    scale: 0.92
 })
+
+$("#back").click(function() {
+$('html, body').animate({
+        scrollTop: $("#home").offset().top
+    }, 500);
+});
+
+$(window).scroll(function() {
+    var height = $(window).scrollTop();
+
+    if(height  > 800) {
+        $("#back").fadeIn(200).css("display","flex");
+    }
+
+    if (height  < 800) {
+        $("#back").fadeOut(200);
+    }
+}); 
 
 var iterifyArr = function (arr) {
     var cur = 0;
@@ -78,11 +96,6 @@ $("#hPic8").click(function() {
 $("#hPic9").click(function() {
     projectNine();
 });
-$("#back").click(function() {
-$('html, body').animate({
-        scrollTop: $("#home").offset().top
-    }, 500);
-}
 
 //Triggering navbar functions
 
@@ -171,6 +184,11 @@ var projectOne = function() {
     $("#P1Credit4").text(p1Credits.Name4);
     $("#P1Credit5").text(p1Credits.Name5);
     document.getElementById("P1Link").href = "http://5dollarchallenge.localground.org";
+    
+    document.getElementById("P1Shot1").src = P1Images.I1;
+    document.getElementById("P1Shot2").src = P1Images.I2;
+    document.getElementById("P1Shot3").src = P1Images.I3;
+    document.getElementById("P1Shot4").src = P1Images.I4;
 
     $("#pageBG").css({
         'background-color': '#f5d1dc'
@@ -196,6 +214,11 @@ var projectTwo = function() {
     $("#P1Credit5").text(p2Credits.Name5);
     document.getElementById("P1Link").href = "https://yri.youthradio.org/XYZ/";
 
+    document.getElementById("P1Shot1").src = P2Images.I1;
+    document.getElementById("P1Shot2").src = P2Images.I2;
+    document.getElementById("P1Shot3").src = P2Images.I3;
+    document.getElementById("P1Shot4").src = P2Images.I4;
+
     $("#pageBG").css({
         'background-color': '#d9eef8'
     }, 500);
@@ -218,6 +241,11 @@ var projectThree = function() {
     $("#P1Credit5").text(p3Credits.Name5);
     document.getElementById("P1Link").href = "https://play.google.com/store/apps/details?id=appinventor.ai_innovation.youthradio_moodring&hl=en";
 
+    document.getElementById("P1Shot1").src = P3Images.I1;
+    document.getElementById("P1Shot2").src = P3Images.I2;
+    document.getElementById("P1Shot3").src = P3Images.I3;
+    document.getElementById("P1Shot4").src = P3Images.I4;
+
     $("#pageBG").css({
         'background-color': '#f5d1dc'
     }, 500);
@@ -239,6 +267,11 @@ var projectFour = function() {
     $("#P1Credit5").text(p4Credits.Name5);
     document.getElementById("P1Link").href = "https://yri.youthradio.org/dontgetfaked/";
 
+    document.getElementById("P1Shot1").src = P4Images.I1;
+    document.getElementById("P1Shot2").src = P4Images.I2;
+    document.getElementById("P1Shot3").src = P4Images.I3;
+    document.getElementById("P1Shot4").src = P4Images.I4;
+
     $("#pageBG").css({
         'background-color': '#ebdfe8'
     }, 500);
@@ -259,6 +292,11 @@ var projectFive = function() {
     $("#P1Credit4").text(p5Credits.Name4);
     $("#P1Credit5").text(p5Credits.Name5);
     document.getElementById("P1Link").href = "https://yri.youthradio.org/littlerock9/";
+
+    document.getElementById("P1Shot1").src = P5Images.I1;
+    document.getElementById("P1Shot2").src = P5Images.I2;
+    document.getElementById("P1Shot3").src = P5Images.I3;
+    document.getElementById("P1Shot4").src = P5Images.I4;
 
     $("#pageBG").css({
         'background-color': '#f3ddee'
@@ -282,6 +320,11 @@ var projectSix = function() {
     $("#P1Credit5").text(p6Credits.Name5);
     document.getElementById("P1Link").href = "https://play.google.com/store/apps/details?id=appinventor.ai_innovation.Run4Prez";
 
+    document.getElementById("P1Shot1").src = P6Images.I1;
+    document.getElementById("P1Shot2").src = P6Images.I2;
+    document.getElementById("P1Shot3").src = P6Images.I3;
+    document.getElementById("P1Shot4").src = P6Images.I4;
+
     $("#pageBG").css({
         'background-color': '#e1f0f1'
     }, 500);
@@ -302,6 +345,12 @@ var projectSeven = function() {
     $("#P1Credit4").text(p7Credits.Name4);
     $("#P1Credit5").text(p7Credits.Name5);
     document.getElementById("P1Link").href = "https://yri.youthradio.org/unlocked/";
+
+    document.getElementById("P1Shot1").src = P7Images.I1;
+    document.getElementById("P1Shot2").src = P7Images.I2;
+    document.getElementById("P1Shot3").src = P7Images.I3;
+    document.getElementById("P1Shot4").src = P7Images.I4;
+
     $("#pageBG").css({
         'background-color': '#fefefe'
     }, 500);
@@ -323,6 +372,11 @@ var projectEight = function() {
     $("#P1Credit4").text(p8Credits.Name4);
     $("#P1Credit5").text(p8Credits.Name5);
     document.getElementById("P1Link").href = "https://yri.youthradio.org/noexcuses/";
+
+    document.getElementById("P1Shot1").src = P8Images.I1;
+    document.getElementById("P1Shot2").src = P8Images.I2;
+    document.getElementById("P1Shot3").src = P8Images.I3;
+    document.getElementById("P1Shot4").src = P8Images.I4;
 
     $("#pageBG").css({
         'background-color': '#ffe0eb'
@@ -346,20 +400,15 @@ var projectNine = function() {
     $("#P1Credit5").text(p9Credits.Name5);
     document.getElementById("P1Link").href = "https://youthradio.github.io/fostercare/";
 
+    document.getElementById("P1Shot1").src = P9Images.I1;
+    document.getElementById("P1Shot2").src = P9Images.I2;
+    document.getElementById("P1Shot3").src = P9Images.I3;
+    document.getElementById("P1Shot4").src = P9Images.I4;
+
     $("#pageBG").css({
         'background-color': '#f7eada'
     }, 500);
 };
 
 
-$(window).scroll(function() {
-    var height = $(window).scrollTop();
 
-    if(height  > 400) {
-        $("#back").fadeIn(200).css("display","flex");
-    }
-
-    if (height  < 400) {
-        $("#back").fadeOut(200);
-    }
-}); 

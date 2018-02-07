@@ -24,67 +24,58 @@ var projectDescriptions = {
 }
 
 var P1Images = {
-	I1:"img/ss/Shot2.png",
-	I2:"img/ss/Shot3.png",
-	I3:"img/ss/Shot4.png",
-	I4:"img/ss/Shot5.png",
-	I5:"img/ss/Shot6.png",
+	I1:"img/5DC/1.png",
+	I2:"img/5DC/2.png",
+	I3:"img/5DC/3.png",
+	I4:"",
 }
 var P2Images = {
-	I1:"img/ss/Shot2.png",
-	I2:"img/ss/Shot3.png",
-	I3:"img/ss/Shot4.png",
-	I4:"img/ss/Shot5.png",
-	I5:"img/ss/Shot6.png",
+	I1:"img/XYZ/1.png",
+	I2:"img/XYZ/2.png",
+	I3:"img/XYZ/3.png",
+	I4:"",
 }
 var P3Images = {
-	I1:"img/ss/Shot2.png",
-	I2:"img/ss/Shot3.png",
-	I3:"img/ss/Shot4.png",
-	I4:"img/ss/Shot5.png",
-	I5:"img/ss/Shot6.png",
+	I1:"img/MR/1.png",
+	I2:"img/MR/2.png",
+	I3:"img/MR/3.png",
+	I4:"",
 }
 var P4Images = {
-	I1:"img/ss/Shot2.png",
-	I2:"img/ss/Shot3.png",
-	I3:"img/ss/Shot4.png",
-	I4:"img/ss/Shot5.png",
-	I5:"img/ss/Shot6.png",
+	I1:"img/DGF/1.png",
+	I2:"img/DGF/2.png",
+	I3:"img/DGF/3.png",
+	I4:"img/DGF/4.png",
 }
 var P5Images = {
-	I1:"img/ss/Shot2.png",
-	I2:"img/ss/Shot3.png",
-	I3:"img/ss/Shot4.png",
-	I4:"img/ss/Shot5.png",
-	I5:"img/ss/Shot6.png",
+	I1:"img/LR9/1.png",
+	I2:"img/LR9/2.png",
+	I3:"img/LR9/3.png",
+	I4:"",
 }
 var P6Images = {
-	I1:"img/ss/Shot2.png",
-	I2:"img/ss/Shot3.png",
-	I3:"img/ss/Shot4.png",
-	I4:"img/ss/Shot5.png",
-	I5:"img/ss/Shot6.png",
+	I1:"img/R4P/1.png",
+	I2:"img/R4P/2.png",
+	I3:"img/R4P/3.png",
+	I4:"",
 }
 var P7Images = {
-	I1:"img/ss/Shot2.png",
-	I2:"img/ss/Shot3.png",
-	I3:"img/ss/Shot4.png",
-	I4:"img/ss/Shot5.png",
-	I5:"img/ss/Shot6.png",
+	I1:"img/ULD/1.png",
+	I2:"img/ULD/2.png",
+	I3:"img/ULD/3.png",
+	I4:"",
 }
 var P8Images = {
-	I1:"img/ss/Shot2.png",
-	I2:"img/ss/Shot3.png",
-	I3:"img/ss/Shot4.png",
-	I4:"img/ss/Shot5.png",
-	I5:"img/ss/Shot6.png",
+	I1:"img/NE/1.png",
+	I2:"img/NE/2.png",
+	I3:"img/NE/3.png",
+	I4:"",
 }
 var P9Images = {
-	I1:"img/ss/Shot2.png",
-	I2:"img/ss/Shot3.png",
-	I3:"img/ss/Shot4.png",
-	I4:"img/ss/Shot5.png",
-	I5:"img/ss/Shot6.png",
+	I1:"img/FC/1.png",
+	I2:"img/FC/2.png",
+	I3:"img/FC/3.png",
+	I4:"img/FC/4.png",
 }
 
 //There's a better way of doing this, this is plain lazy
@@ -111,11 +102,17 @@ var p3Credits = {
 	Name5:"Mary	Thompson",
 }
 var p4Credits = {
-	Name1:"Roxy	Walden",
-	Name2:"Ellis Ma",
-	Name3:"Bobbi Coles",
-	Name4:"Jame Ainsworth",
-	Name5:"Juliane	Bui",
+	Name1:"Senay Alkebu-lan",
+	Name2:"Natalie Bettendorf",
+	Name3:"David Conley",
+	Name4:"Christy Duong",
+	Name5:"Nick Lai",
+	Name6:"Riley Lockett",
+	Name7:"Desmond Meagley",
+	Name8:"Morgan Nok-Boyle",
+	Name9:"Charlie Stuip",
+	Name10:"Dominik Vaughan",
+	Name11:"Shanya Williams",
 }
 var p5Credits = {
 	Name1:"Andy Kirby",

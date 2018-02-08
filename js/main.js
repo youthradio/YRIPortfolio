@@ -171,18 +171,19 @@ var projectOne = function() {
     $('html, body').animate({
         scrollTop: $("#P1").offset().top
     }, 500);
-    
-    
 
     $("#P1TitleC").text(projectTiles.P1);
     $("#P1Title").text(projectTiles.P1);
     $("#P1TitleB").text(projectTiles.P1);
     $("#P1Desc").text(projectDescriptions.P1);
-    $("#P1Credit1").text(p1Credits.Name1);
-    $("#P1Credit2").text(p1Credits.Name2);
-    $("#P1Credit3").text(p1Credits.Name3);
-    $("#P1Credit4").text(p1Credits.Name4);
-    $("#P1Credit5").text(p1Credits.Name5);
+    
+    var creditGrab = $.map(p1Credits, function(value) {
+        return(value);
+    }).join(' | ');
+    $("#credits").text(creditGrab);
+
+    //Drags each name from each page credits object and brings them into a single string, it's also possible to make them into a list
+
     document.getElementById("P1Link").href = "http://5dollarchallenge.localground.org";
     
     document.getElementById("P1Shot1").src = P1Images.I1;
@@ -207,11 +208,12 @@ var projectTwo = function() {
     $("#P1Title").text(projectTiles.P2);
     $("#P1TitleB").text(projectTiles.P2);
     $("#P1Desc").text(projectDescriptions.P2);
-    $("#P1Credit1").text(p2Credits.Name1);
-    $("#P1Credit2").text(p2Credits.Name2);
-    $("#P1Credit3").text(p2Credits.Name3);
-    $("#P1Credit4").text(p2Credits.Name4);
-    $("#P1Credit5").text(p2Credits.Name5);
+
+    var creditGrab = $.map(p2Credits, function(value) {
+        return(value);
+    }).join(' | ');
+    $("#credits").text(creditGrab);
+
     document.getElementById("P1Link").href = "https://yri.youthradio.org/XYZ/";
 
     document.getElementById("P1Shot1").src = P2Images.I1;
@@ -234,11 +236,14 @@ var projectThree = function() {
     $("#P1Title").text(projectTiles.P3);
     $("#P1TitleB").text(projectTiles.P3);
     $("#P1Desc").text(projectDescriptions.P3);
-    $("#P1Credit1").text(p3Credits.Name1);
-    $("#P1Credit2").text(p3Credits.Name2);
-    $("#P1Credit3").text(p3Credits.Name3);
-    $("#P1Credit4").text(p3Credits.Name4);
-    $("#P1Credit5").text(p3Credits.Name5);
+
+    var creditGrab = $.map(p3Credits, function(value) {
+        return(value);
+    }).join(' | ');
+    $("#credits").text(creditGrab);
+
+
+   
     document.getElementById("P1Link").href = "https://play.google.com/store/apps/details?id=appinventor.ai_innovation.youthradio_moodring&hl=en";
 
     document.getElementById("P1Shot1").src = P3Images.I1;
@@ -260,11 +265,13 @@ var projectFour = function() {
     $("#P1Title").text(projectTiles.P4);
     $("#P1TitleB").text(projectTiles.P4);
     $("#P1Desc").text(projectDescriptions.P4);
-    $("#P1Credit1").text(p4Credits.Name1);
-    $("#P1Credit2").text(p4Credits.Name2);
-    $("#P1Credit3").text(p4Credits.Name3);
-    $("#P1Credit4").text(p4Credits.Name4);
-    $("#P1Credit5").text(p4Credits.Name5);
+
+    var creditGrab = $.map(p4Credits, function(value) {
+        return(value);
+    }).join(' | ');
+    $("#credits").text(creditGrab);
+
+
     document.getElementById("P1Link").href = "https://yri.youthradio.org/dontgetfaked/";
 
     document.getElementById("P1Shot1").src = P4Images.I1;
@@ -286,11 +293,13 @@ var projectFive = function() {
     $("#P1Title").text(projectTiles.P5);
     $("#P1TitleB").text(projectTiles.P5);
     $("#P1Desc").text(projectDescriptions.P5);
-    $("#P1Credit1").text(p5Credits.Name1);
-    $("#P1Credit2").text(p5Credits.Name2);
-    $("#P1Credit3").text(p5Credits.Name3);
-    $("#P1Credit4").text(p5Credits.Name4);
-    $("#P1Credit5").text(p5Credits.Name5);
+
+    var creditGrab = $.map(p5Credits, function(value) {
+        return(value);
+    }).join(' | ');
+    $("#credits").text(creditGrab);
+
+
     document.getElementById("P1Link").href = "https://yri.youthradio.org/littlerock9/";
 
     document.getElementById("P1Shot1").src = P5Images.I1;
@@ -313,11 +322,13 @@ var projectSix = function() {
     $("#P1Title").text(projectTiles.P6);
     $("#P1TitleB").text(projectTiles.P6);
     $("#P1Desc").text(projectDescriptions.P6);
-    $("#P1Credit1").text(p6Credits.Name1);
-    $("#P1Credit2").text(p6Credits.Name2);
-    $("#P1Credit3").text(p6Credits.Name3);
-    $("#P1Credit4").text(p6Credits.Name4);
-    $("#P1Credit5").text(p6Credits.Name5);
+
+    var creditGrab = $.map(p6Credits, function(value) {
+        return(value);
+    }).join(' | ');
+    $("#credits").text(creditGrab);
+
+
     document.getElementById("P1Link").href = "https://play.google.com/store/apps/details?id=appinventor.ai_innovation.Run4Prez";
 
     document.getElementById("P1Shot1").src = P6Images.I1;
@@ -339,11 +350,13 @@ var projectSeven = function() {
     $("#P1Title").text(projectTiles.P7);
     $("#P1TitleB").text(projectTiles.P7);
     $("#P1Desc").text(projectDescriptions.P7);
-    $("#P1Credit1").text(p7Credits.Name1);
-    $("#P1Credit2").text(p7Credits.Name2);
-    $("#P1Credit3").text(p7Credits.Name3);
-    $("#P1Credit4").text(p7Credits.Name4);
-    $("#P1Credit5").text(p7Credits.Name5);
+
+    var creditGrab = $.map(p7Credits, function(value) {
+        return(value);
+    }).join(' | ');
+    $("#credits").text(creditGrab);
+
+
     document.getElementById("P1Link").href = "https://yri.youthradio.org/unlocked/";
 
     document.getElementById("P1Shot1").src = P7Images.I1;
@@ -366,11 +379,12 @@ var projectEight = function() {
     $("#P1Title").text(projectTiles.P8);
     $("#P1TitleB").text(projectTiles.P8);
     $("#P1Desc").text(projectDescriptions.P8);
-    $("#P1Credit1").text(p8Credits.Name1);
-    $("#P1Credit2").text(p8Credits.Name2);
-    $("#P1Credit3").text(p8Credits.Name3);
-    $("#P1Credit4").text(p8Credits.Name4);
-    $("#P1Credit5").text(p8Credits.Name5);
+
+    var creditGrab = $.map(p8Credits, function(value) {
+        return(value);
+    }).join(' | ');
+    $("#credits").text(creditGrab);
+
     document.getElementById("P1Link").href = "https://yri.youthradio.org/noexcuses/";
 
     document.getElementById("P1Shot1").src = P8Images.I1;
@@ -393,11 +407,13 @@ var projectNine = function() {
     $("#P1Title").text(projectTiles.P9);
     $("#P1TitleB").text(projectTiles.P9);
     $("#P1Desc").text(projectDescriptions.P9);
-    $("#P1Credit1").text(p9Credits.Name1);
-    $("#P1Credit2").text(p9Credits.Name2);
-    $("#P1Credit3").text(p9Credits.Name3);
-    $("#P1Credit4").text(p9Credits.Name4);
-    $("#P1Credit5").text(p9Credits.Name5);
+
+    var creditGrab = $.map(p9Credits, function(value) {
+        return(value);
+    }).join(' | ');
+    $("#credits").text(creditGrab);
+
+
     document.getElementById("P1Link").href = "https://youthradio.github.io/fostercare/";
 
     document.getElementById("P1Shot1").src = P9Images.I1;

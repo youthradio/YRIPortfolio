@@ -82,8 +82,8 @@ var P9Images = {
 
 var p1Credits = {
 	Name1:"Andy Kirby",
-	Name2:"Melanie	Barnett",
-	Name3:"Bill	Collier",
+	Name2:"Melanie Barnett",
+	Name3:"Bill Collier",
 	Name4:"Jo Mccormick",
 	Name5:"Jesus Boyd",
 }

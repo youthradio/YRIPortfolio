@@ -3,3 +3,5 @@ Sketch/*
 public/
 _site/
 .sass-cache/
+Gemfile.lock
+

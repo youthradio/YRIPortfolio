@@ -3,7 +3,7 @@
   <!-- To see what this, and the dropdown menu links are linking to, check js/data.js. You'll have to retitle the data to be respective to the images here. -->
   {% for project in site.projects %}
     <div class="col-12 col-md-4 mb-2 pr-2 text-center ">
-      <a href="{{ project.url }}"><img id="hPic4" data-tilt class="img-fluid tilt" src="{{ site.url }}/assets/covers/{{ project.coverimg }}"></a>
+      <a href="{{ project.url }}"><img id="hPic4" data-tilt class="img-fluid tilt" src="{{ site.baseurl }}/assets/covers/{{ project.coverimg }}"></a>
     </div>
   {% endfor %}
 

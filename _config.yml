@@ -1,0 +1,43 @@
+title:              Youth Radio portfolio
+description:        "Youth Radio portfolio"
+twitter:            youthradio
+authors:            "YRI"
+social_image_path:  /
+social_logo_path:   /
+
+lang: en
+url:  ""
+baseurl: ""
+include: ['_pages']
+# permalink: :title/
+
+# Build settings
+markdown: kramdown
+sass:
+    sass_dir: _sass
+    style: compressed
+
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:title
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "base"
+  -
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "base-content"
+
+plugins:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-toc

@@ -7,7 +7,7 @@ social_logo_path:   /
 
 lang: en
 url:  ""
-baseurl: ""
+baseurl: "/YRIPortfolio"
 include: ['_pages']
 # permalink: :title/
 

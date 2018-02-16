@@ -3,3 +3,8 @@ $("#back").click(function() {
     scrollTop: $("#home").offset().top
   }, 500);
 });
+
+
+$.document
+$("#project-info")
+

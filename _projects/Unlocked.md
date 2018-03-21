@@ -3,7 +3,7 @@ title: Unlocked
 description: description 5 Dollar Challenge
 date: 2013-07-09T09:01:46
 coverimg: unlocked.png
-credits: ['person 1', 'person 2', 'person 3']
+credits: ['Soraya Shockley', 'Brett Myers', 'Rebecca Martin', 'Olivia Cueva', 'Lissa Soep', 'Kenya Young', 'Brandon McFarland', 'Denise Tejada', 'Lo Benichou', 'Jenny Bolario', 'Bridget Botelho', 'Asha Richardson', 'Shyra Gums', 'Dayonna Martin', 'Elizabeth Matute', 'Zak Rosen', 'Julia Mitric', 'Sayre Quevedo', 'Ellin O’Leary']
 projecturl: https://google.com
 imgfolder: ULD
 

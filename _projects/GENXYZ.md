@@ -3,7 +3,7 @@ title: GENXYZ
 description: description 5 Dollar Challenge
 date: 2013-07-09T09:01:46
 coverimg: genxyz.png
-credits: ['person 1', 'person 2', 'person 3']
+credits: ['Asha Richardson', 'Radames Ajna', 'Seth Marceau', 'Devin Glover', 'Desmond Meagley', 'Teresa Chin', 'Lissa Soep']
 projecturl: https://google.com
 imgfolder: XYZ
 

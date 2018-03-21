@@ -71,7 +71,7 @@
 .col-xl,
 .col-xl-auto {
    padding-right: 0%;
-     padding-left: 0%;
+     padding-left: 0% !important;
 }
 
 .nounderline a {
@@ -83,6 +83,7 @@ html,
 body {
     height: 100%;
     width: 100%;
+    font-family: 'IBM Plex Sans Condensed' !important;
 }
 
 .lilFont{
@@ -102,6 +103,10 @@ body {
 .tilt{    
     mix-blend-mode: normal;
 
+}
+
+#credits{
+   -webkit-overflow-scrolling: touch;
 }
 
 .display-4{
@@ -191,6 +196,13 @@ body {
     z-index: 199;
 }
 
+.gallery{
+  height: 80%;
+  overflow-y: scroll; 
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
 #slideClose{
     display: none;
     z-index: 200;
@@ -203,6 +215,10 @@ body {
 .page-container .row {
     margin-left: 5%;
     margin-right: 5%;
+}
+
+.pic-view{
+  max-height: 
 }
 
 .page-container ul{
@@ -219,10 +235,12 @@ body {
     position: absolute;
     left: 47%;
     top: 90%;
+
+   -webkit-overflow-scrolling: touch;
 }
 
 .yrid {
-    font-weight: 600;
+    font-weight: 600 !important;
 }
 
 .crumb{
@@ -288,7 +306,7 @@ body {
   }
 
   .gallery{
-  height: 42%;
+  height: 35%;
   overflow-y: scroll; 
   overflow-x: hidden;
 }

@@ -3,7 +3,7 @@ title: Little Rock 9
 description: description 5 Dollar Challenge
 date: 2013-07-09T09:01:46
 coverimg: lr9.png
-credits: ['person 1', 'person 2', 'person 3']
+credits: ['Teresa Chin', 'Nancy DeVille', 'Dominik Vaughan', 'Seth Marceau', 'Devin Glover']
 projecturl: https://google.com
 imgfolder: LR9
 

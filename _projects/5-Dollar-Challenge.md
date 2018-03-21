@@ -3,14 +3,8 @@ title: 5 Dollar Challenge
 description: description 5 Dollar Challenge
 date: 2013-07-09T09:01:46
 coverimg: 5dc.png
-credits: ['person 1', 'person 2', 'person 3']
+credits: ['Storm White', 'Ellen', 'Jo Mccormick', 'Jesus Boyd']
 projecturl: https://google.com
 imgfolder: 5DC
 ---
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-  eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-  montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-  eu, pretium quis, sem. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-  eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-  montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-eu, pretium quis, sem.
+Youth Radio and NPR asked for the best meals you could find in your town for $5 or less. From breakfast tacos to banh mi sandwiches, here are some of our favorites.

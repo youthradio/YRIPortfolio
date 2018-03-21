@@ -3,7 +3,7 @@ title: Mood Ring
 description: description 5 Dollar Challenge
 date: 2013-07-09T09:01:46
 coverimg: mood.png
-credits: ['person 1', 'person 2', 'person 3']
+credits: ['Namiye Peoples', 'Jazon Blasher', 'Storm White', 'John	Perez', 'Lissa Soep', 'Jessica Wang', 'Gabriel Saravia', 'Asha Richardson', 'Donta Jackson', 'Cassandra Xiloxochitl Gutierrez']
 projecturl: https://google.com
 imgfolder: MR
 ---

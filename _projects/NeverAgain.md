@@ -1,11 +1,11 @@
 ---
-title: A Journey Through Foster Care
-description: description 5 Dollar Challenge
-date: 2013-07-09T09:01:46
-coverimg: foster.jpg
-credits: ['Teresa Chin', 'Asha Richardson', 'Desmond Meagley', 'Lissa Soep', 'Chaz Hubbard', 'Senay Alkebu-lan', 'Myles Bess', 'Noel Anaya', 'Melissa Beavers', 'Jenny Bolario', 'Cari Campbell', 'Amber Ly', 'Rebecca Martin', 'Desmond Meagley', 'Brett Myers', 'Noah Nelson', 'Ellin O’Leary', 'Denise Tejada', 'Nila Venkat', 'Shawn Wen', 'Storm White']
+title: Never Again
+description: description Never Again
+date: 2017-03-20T09:01:46
+coverimg: fake.jpg
+credits: ['Senay Alkebu-lan', 'Natalie Bettendorf', 'David Conley', 'Christy Duong', 'Nick Lai', 'Riley Lockett', 'Desmond Meagley', 'Morgan Nok-Boyle', 'Charlie Stuip', 'Dominik Vaughan', 'Shanya Williams']
 projecturl: https://google.com
-imgfolder: 5DC
+imgfolder: NA
 
 ---
 

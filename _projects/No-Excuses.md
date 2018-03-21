@@ -3,7 +3,7 @@ title: No Excuses
 description: description 5 Dollar Challenge
 date: 2013-07-09T09:01:46
 coverimg: excuses.png
-credits: ['person 1', 'person 2', 'person 3']
+credits: ['Desmond Meagley', 'Christy Duong', 'Devin Glover', 'Charlie Stuip', 'Asha Richardson', 'Teresa Chin', 'Shawn Wen', 'Lissa Soep']
 projecturl: https://google.com
 imgfolder: NE
 

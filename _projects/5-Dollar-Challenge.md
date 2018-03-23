@@ -3,8 +3,8 @@ title: 5 Dollar Challenge
 description: description 5 Dollar Challenge
 date: 2013-07-09T09:01:46
 coverimg: 5dc.png
-credits: ['Storm White', 'Ellen', 'Jo Mccormick', 'Jesus Boyd']
-projecturl: https://google.com
+credits: ['Storm White', 'Teresa Chin', 'Asha Richardson', 'Lissa Soep', 'Sarah Van Wart', 'Ellen Jane Van Wyk', 'Jocelyn Matthews', 'NPR', 'UC Berkeley iSchool']
+projecturl: http://5dollarchallenge.localground.org
 imgfolder: 5DC
 ---
-Youth Radio and NPR asked for the best meals you could find in your town for $5 or less. From breakfast tacos to banh mi sandwiches, here are some of our favorites.
+With assistance from UC Berkely's 'iSchool', Youth Radio and NPR asks viewers what was the best dish in their area they could find for under $5.

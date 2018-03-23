@@ -30,7 +30,7 @@
                   {% assign imgpath = 'img/' | append: page.imgfolder %}
                   {% if image.path contains imgpath %}
                     <div class="col-4 mr-3">
-                      <img id="P1Shot1" data-tilt class="img-fluid tilt" src="{{ site.baseurl }}{{ image.path }}">
+                      <img id="P1Shot1" height="100%" width="100%" data-tilt class="img-fluid tilt" src="{{ site.baseurl }}{{ image.path }}">
                     </div>
                   {% endif %}
                 {% endfor %}

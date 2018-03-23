@@ -107,6 +107,7 @@ body {
 
 #credits{
    -webkit-overflow-scrolling: touch;
+   left: 15px !important;
 }
 
 .display-4{

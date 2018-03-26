@@ -1,7 +1,7 @@
 ---
 title: Little Rock 9
 description: description 5 Dollar Challenge
-date: 2013-07-09T09:01:46
+date: 2017-09-25T09:01:46
 coverimg: lr9.png
 credits: ['Teresa Chin', 'Nancy DeVille', 'Dominik Vaughan', 'Seth Marceau', 'Devin Glover']
 projecturl: https://yri.youthradio.org/littlerock9/

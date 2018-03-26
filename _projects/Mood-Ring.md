@@ -1,7 +1,7 @@
 ---
 title: Mood Ring
 description: description 5 Dollar Challenge
-date: 2013-07-09T09:01:46
+date: 2016-08-11T09:01:46
 coverimg: mood.png
 credits: ['Namiye Peoples', 'Jazon Blasher', 'Storm White', 'John	Perez', 'Lissa Soep', 'Jessica Wang', 'Gabriel Saravia', 'Asha Richardson', 'Donta Jackson', 'Cassandra Xiloxochitl Gutierrez']
 projecturl: https://play.google.com/store/apps/details?id=appinventor.ai_innovation.youthradio_moodring&hl=en

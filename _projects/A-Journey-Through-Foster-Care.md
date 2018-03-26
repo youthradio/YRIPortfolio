@@ -1,7 +1,7 @@
 ---
 title: A Journey Through Foster Care
 description: description A Journey Through Foster Care
-date: 2013-07-09T09:01:46
+date: 2017-01-01T09:01:46
 coverimg: foster.jpg
 credits: ['Teresa Chin', 'Asha Richardson', 'Desmond Meagley', 'Lissa Soep', 'Chaz Hubbard', 'Senay Alkebu-lan', 'Myles Bess', 'Noel Anaya', 'Melissa Beavers', 'Jenny Bolario', 'Cari Campbell', 'Amber Ly', 'Rebecca Martin', 'Desmond Meagley', 'Brett Myers', 'Noah Nelson', 'Ellin O’Leary', 'Denise Tejada', 'Nila Venkat', 'Shawn Wen', 'Storm White']
 projecturl: https://youthradio.github.io/fostercare/

@@ -1,7 +1,7 @@
 ---
 title: 5 Dollar Challenge
 description: description 5 Dollar Challenge
-date: 2013-07-09T09:01:46
+date: 2016-05-09T09:01:46
 coverimg: 5dc.png
 credits: ['Storm White', 'Teresa Chin', 'Asha Richardson', 'Lissa Soep', 'Sarah Van Wart', 'Ellen Jane Van Wyk', 'Jocelyn Matthews', 'NPR', 'UC Berkeley iSchool']
 projecturl: http://5dollarchallenge.localground.org

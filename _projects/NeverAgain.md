@@ -1,8 +1,8 @@
 ---
 title: Never Again
 description: description Never Again
-date: 2017-03-20T09:01:46
-coverimg: fake.jpg
+date: 2018-03-20T09:01:46
+coverimg: again.png
 credits: ['Senay Alkebu-lan', 'Natalie Bettendorf', 'David Conley', 'Christy Duong', 'Nick Lai', 'Riley Lockett', 'Desmond Meagley', 'Morgan Nok-Boyle', 'Charlie Stuip', 'Dominik Vaughan', 'Shanya Williams']
 projecturl: https://yri.youthradio.org/neveragain/
 imgfolder: NA

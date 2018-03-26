@@ -1,7 +1,7 @@
 ---
 title: Run 4 Prez
 description: description 5 Dollar Challenge
-date: 2013-07-09T09:01:46
+date: 2016-10-19T09:01:46
 coverimg: prez.png
 credits: ['Nicolas Lai', 'Charlie Stuip', 'Isaiah Richardson', 'Storm White', 'Desmond Meagley', 'Asha Richardson', 'Lissa Soep', 'Teresa Chin
 ', 'Amber Ly']

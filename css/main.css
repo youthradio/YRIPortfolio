@@ -204,6 +204,12 @@ body {
   -webkit-overflow-scrolling: touch;
 }
 
+.gallery::after{
+  margin-top: 200px;
+
+}
+
+
 #slideClose{
     display: none;
     z-index: 200;
@@ -278,6 +284,8 @@ body {
 .container-fluid {
   height: 120%;
 }
+
+
 }
 
 @media screen and (max-width: 991px) {
@@ -296,6 +304,14 @@ body {
 
 
 
+
+
+}
+
+@media screen and (max-width: 1280px) {
+  .yrid {
+    font-size: 2rem !important;
+}
 }
 
 

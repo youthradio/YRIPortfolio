@@ -9,9 +9,9 @@
       <a class="navbar-brand" href="#"></a>
       <ul id="navContent" class="navbar-nav d-flex justify-content-center bg-sm mr-auto mt-2 mt-lg-0">
         <li class="nav-item active">
-          <a class="nav-link" href="/ ">HOME <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="{{ site.baseurl }}/">HOME <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item dropdown">
+        <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   PROJECTS
                 </a>
@@ -19,7 +19,7 @@
             {% for project in site.projects %}
             <a class="dropdown-item"  href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a> {% endfor %}
           </div>
-        </li>
+        </li>-->
         <li class="nav-item">
           <a class="nav-link" href="https://youthradio.org">TO YOUTH RADIO</a>
         </li>

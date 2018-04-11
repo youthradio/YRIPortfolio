@@ -1,14 +1,12 @@
 <div class="row gallery" >
-
+	
   <!-- To see what this, and the dropdown menu links are linking to, check js/data.js. You'll have to retitle the data to be respective to the images here. -->
-  {% for project in site.projects %}
+  {% assign sorted = (site.projects | sort: 'date') | reverse %}
+  {% for item in sorted %}
     <div class="col-12 col-md-4 mb-2 pr-2 text-center ">
-      <a href="{{ site.baseurl }}{{ project.url }}"><img id="hPic4" data-tilt class="img-fluid tilt" src="{{ site.baseurl }}/assets/covers/{{ project.coverimg }}"></a>
+      <a href="{{ site.baseurl }}{{ item.url }}"><img id="hPic4" data-tilt class="img-fluid tilt" src="{{ site.baseurl }}/assets/covers/{{ item.coverimg }}"></a>
     </div>
   {% endfor %}
-
-  <div class="col-12">
-        <small class="text-muted d-none d-md-inline">This material is based upon work supported by the National Science Foundation under Grant No. DRL-1513282 and Grant No. DRL-1614239. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation. </small>
-      </div>
+  <div class="fade-out"></div>
 
 </div>

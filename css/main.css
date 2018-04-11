@@ -71,7 +71,7 @@
 .col-xl,
 .col-xl-auto {
    padding-right: 0%;
-     padding-left: 0%;
+     padding-left: 0% !important;
 }
 
 .nounderline a {
@@ -83,6 +83,7 @@ html,
 body {
     height: 100%;
     width: 100%;
+    font-family: 'IBM Plex Sans Condensed' !important;
 }
 
 .lilFont{
@@ -99,9 +100,18 @@ body {
   height: 100%;
 }
 
+.disclaimer{
+  top: -20px;
+}
+
 .tilt{    
     mix-blend-mode: normal;
 
+}
+
+#credits{
+   -webkit-overflow-scrolling: touch;
+   left: 15px !important;
 }
 
 .display-4{
@@ -191,6 +201,43 @@ body {
     z-index: 199;
 }
 
+.gallery{
+  height: 80%;
+  overflow-y: scroll; 
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+/*.gallery::after{
+  content: "";
+  height: 20%;
+  width: 80%;
+  position: absolute;
+  left: 0;
+  bottom: 19%;
+  background: linear-gradient(to top,
+     rgba(248,249,250,1) 10%, 
+     rgba(248,249,250, 0) 80%
+  );
+  pointer-events: none;
+
+}*/
+
+.fade-out{
+  content: "";
+  height: 20%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 19%;
+  background: linear-gradient(to top,
+     rgba(248,249,250,1) 10%, 
+     rgba(248,249,250, 0) 80%
+  );
+  pointer-events: none;
+}
+
+
 #slideClose{
     display: none;
     z-index: 200;
@@ -203,6 +250,10 @@ body {
 .page-container .row {
     margin-left: 5%;
     margin-right: 5%;
+}
+
+.pic-view{
+  max-height: 
 }
 
 .page-container ul{
@@ -219,10 +270,12 @@ body {
     position: absolute;
     left: 47%;
     top: 90%;
+
+   -webkit-overflow-scrolling: touch;
 }
 
 .yrid {
-    font-weight: 600;
+    font-weight: 600 !important;
 }
 
 .crumb{
@@ -255,10 +308,9 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-.page-container,
-.container-fluid {
-  height: 120%;
-}
+
+
+
 }
 
 @media screen and (max-width: 991px) {
@@ -277,20 +329,40 @@ body {
 
 
 
+
+
+}
+
+@media screen and (max-width: 1280px) {
+  .yrid {
+    font-size: 2rem !important;
+}
 }
 
 
 
 @media screen and (max-width: 768px) {
 
+  .page-container, .container-fluid, html, body {
+    height: auto;
+  }
+
   .page-container ul {
     line-height: 101%;
   }
 
   .gallery{
-  height: 42%;
+  max-height: 350px;
   overflow-y: scroll; 
   overflow-x: hidden;
+}
+
+.gallery:after{
+  visibility: hidden;
+}
+
+.disclaimer{
+  font-size: 0.7rem !important;
 }
 
   
@@ -305,18 +377,22 @@ body {
     font-size: 100% !important;
   }
 
+  .lead{
+    font-size: 0.8rem !important;
+  }
+
   .display-4 {
     font-size: 1.4rem !important;
   }
 
   h1 {
-    font-size: 20px;  
-  }
-  h2 {
     font-size: 18px;  
   }
-  h3 {
+  h2 {
     font-size: 16px;  
+  }
+  h3 {
+    font-size: 14px;  
   }
 }
 

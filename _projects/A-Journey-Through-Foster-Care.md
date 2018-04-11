@@ -1,18 +1,12 @@
 ---
 title: A Journey Through Foster Care
-description: description 5 Dollar Challenge
-date: 2013-07-09T09:01:46
+description: description A Journey Through Foster Care
+date: 2017-01-01T09:01:46
 coverimg: foster.jpg
-credits: ['person 1', 'person 2', 'person 3']
-projecturl: https://google.com
-imgfolder: 5DC
+credits: ['Teresa Chin', 'Asha Richardson', 'Desmond Meagley', 'Lissa Soep', 'Chaz Hubbard', 'Senay Alkebu-lan', 'Myles Bess', 'Noel Anaya', 'Melissa Beavers', 'Jenny Bolario', 'Cari Campbell', 'Amber Ly', 'Rebecca Martin', 'Desmond Meagley', 'Brett Myers', 'Noah Nelson', 'Ellin O’Leary', 'Denise Tejada', 'Nila Venkat', 'Shawn Wen', 'Storm White']
+projecturl: https://youthradio.github.io/fostercare/
+imgfolder: FC
 
 ---
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-  eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-  montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-  eu, pretium quis, sem. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-  eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-  montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-eu, pretium quis, sem.
+It all starts with a court-order: a social worker or judge determines it is not in your best interest to remain with your biological parents, and you are removed from their home. But you’re only a kid -- you still need a place to live and someone to care for you. You enter the foster care system, a state-run program that’s supposed to be temporary, until you can move to a more permanent, safe and caring home.

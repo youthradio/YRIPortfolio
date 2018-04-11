@@ -1,18 +1,15 @@
 ---
 title: Run 4 Prez
 description: description 5 Dollar Challenge
-date: 2013-07-09T09:01:46
+date: 2016-10-19T09:01:46
 coverimg: prez.png
-credits: ['person 1', 'person 2', 'person 3']
-projecturl: https://google.com
+credits: ['Nicolas Lai', 'Charlie Stuip', 'Isaiah Richardson', 'Storm White', 'Desmond Meagley', 'Asha Richardson', 'Lissa Soep', 'Teresa Chin
+', 'Amber Ly']
+projecturl: https://play.google.com/store/apps/details?id=appinventor.ai_innovation.Run4Prez
 imgfolder: R4P
 
 ---
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-  eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-  montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-  eu, pretium quis, sem. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-  eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-  montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-eu, pretium quis, sem.
+In the midst of all the madness, one thing can sometimes get lost. And it’s a big thing: FACTS.
+
+How much do you really know about the electoral process and how it relates to the issues you care most about? Find out by playing Run 4 Prez. It’s a game entirely designed and developed by a team of young people at Youth Radio Interactive. Compete against an opponent to see who gets to the White House first. Get your electoral facts wrong, and your campaign will be left in the dust. Get your facts right, and you'll out-run your competitor for the win! 

@@ -11,6 +11,8 @@ baseurl: "/YRIPortfolio"
 include: ['_pages']
 # permalink: :title/
 
+
+
 # Build settings
 markdown: kramdown
 sass:
@@ -21,6 +23,16 @@ collections:
   projects:
     output: true
     permalink: /:collection/:title
+
+autopages:
+  enabled: true
+  # ... etc.
+  collections:
+    permalink: /:coll/
+    enabled: true
+
+paginate: 5
+paginate_path: "projects"
 
 # Defaults
 defaults:
@@ -41,3 +53,4 @@ plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-toc
+  - jekyll-paginate

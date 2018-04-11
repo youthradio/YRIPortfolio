@@ -1,18 +1,12 @@
 ---
 title: GENXYZ
 description: description 5 Dollar Challenge
-date: 2013-07-09T09:01:46
+date: 2017-12-01T09:01:46
 coverimg: genxyz.png
-credits: ['person 1', 'person 2', 'person 3']
-projecturl: https://google.com
+credits: ['Asha Richardson', 'Radames Ajna', 'Seth Marceau', 'Devin Glover', 'Desmond Meagley', 'Teresa Chin', 'Lissa Soep']
+projecturl: https://yri.youthradio.org/XYZ/
 imgfolder: XYZ
 
 ---
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-  eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-  montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-  eu, pretium quis, sem. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-  eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-  montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-eu, pretium quis, sem.
+Youth Radio has been serving up teenagers’ stories for the past 25 years. But what it means to be a teenager — you know, each generation’s music, slang, fashion, and technology — has changed a lot in that time. We dipped into our archives to bring you stories of teenage life across three generations: X, Y and Z. So grab some headphones and prepare yourself for a nostalgia-filled, interactive trip down memory lane. 

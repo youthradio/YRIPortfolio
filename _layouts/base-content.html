@@ -5,17 +5,21 @@
 <body>
 	<!-- This project is designed to look forward into the future of YRI for new projects, especially during the moment I'm not here, so I'll do my best to explain what's all sitting here, including the CSS, the js files where all the data is meant to be, and more.
 		d-flex justify-content-center justify-content-md-start ml-md-5-->
-	<div id="home" class="container-fluid">
+	<div id="home" class="container-fluid bg-light">
 		{% include nav.html %}
 		{% include project-list.html %}
+		</div>
+		<div class="container-fluid">
 		{% include project-description.html %}
+		{% include prevnext.html %}
 	</div>
+	
 	{% include scripts.html %}
 	{% include analytics.html %}
 	<script>
-	$("#project-info").animate({
+	$("body").animate({
 		scrollTop: $("#project-info").offset().top
-	}, 500);
+	}, 1200);
 
 	//$(document).ready(function(){
 	

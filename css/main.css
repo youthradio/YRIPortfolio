@@ -100,6 +100,10 @@ body {
   height: 100%;
 }
 
+.disclaimer{
+  top: -20px;
+}
+
 .tilt{    
     mix-blend-mode: normal;
 
@@ -290,10 +294,7 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-.page-container,
-.container-fluid {
-  height: 120%;
-}
+
 
 
 }
@@ -328,14 +329,26 @@ body {
 
 @media screen and (max-width: 768px) {
 
+  .page-container, .container-fluid, html, body {
+    height: auto;
+  }
+
   .page-container ul {
     line-height: 101%;
   }
 
   .gallery{
-  height: 35%;
+  max-height: 350px;
   overflow-y: scroll; 
   overflow-x: hidden;
+}
+
+.gallery:after{
+  visibility: hidden;
+}
+
+.disclaimer{
+  font-size: 0.7rem !important;
 }
 
   
@@ -350,18 +363,22 @@ body {
     font-size: 100% !important;
   }
 
+  .lead{
+    font-size: 0.8rem !important;
+  }
+
   .display-4 {
     font-size: 1.4rem !important;
   }
 
   h1 {
-    font-size: 20px;  
-  }
-  h2 {
     font-size: 18px;  
   }
-  h3 {
+  h2 {
     font-size: 16px;  
+  }
+  h3 {
+    font-size: 14px;  
   }
 }
 

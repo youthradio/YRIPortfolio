@@ -9,12 +9,4 @@ imgfolder: ULD
 
 ---
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-  eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-  montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-  eu, pretium quis, sem. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-  eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-  montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-eu, pretium quis, sem.
-
-Unlocked is an interactive article by Youth Radio that focuses on the understaffing of a Juvinile Hall in Alameda County, California.
+Unlocked is a multi-part investigation into alternatives to juvenile incarceration–both model programs and cases that raise serious concerns.  In this multimedia story build, Youth Radio reveals how dangerously low staffing levels among guards has resulted in an increase in the use of pepper spray and fights in some juvenile detention facilities.

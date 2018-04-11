@@ -9,10 +9,5 @@ imgfolder: DGF
 
 ---
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-  eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-  montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-  eu, pretium quis, sem. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-  eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-  montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-eu, pretium quis, sem.
+This whole fake news situation is out of hand, and no one wants to be the next clown spreading nonsense about something that never happened! This interactive quiz will help you learn to spot the lies in your news feed.
+

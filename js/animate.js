@@ -1,10 +1,7 @@
-$("#back").click(function() {
-  $('html, body').animate({
-    scrollTop: $("#home").offset().top
-  }, 500);
-});
-
-
-$.document
-$("#project-info")
+$(document).ready(function() {
+	$("html, body").animate({
+		scrollTop: $("#project-info").offset().top
+	}, 1200);
+}
+)
 

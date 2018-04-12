@@ -11,11 +11,10 @@
 <meta property="og:site_name" content="{{site.title}}">
 <meta property="article:publisher" content="{{site.social.facebook_url}}">
 
-{% if page.cover %}
-  {% assign coverImagePath = site.url | append: page.cover %}
+{% if page.coverimg %}
+  {% assign coverImagePath = site.url | append: "/assets/covers/" | append: page.coverimg %}
 {% else %}
-  {% assign assets = "/assets" | append: page.url | replace: "/post/", "/posts/" %}
-  {% assign coverImagePath = site.url | append: assets | append: "social.jpg" %}
+  {% assign coverImagePath = site.url | append: "/assets/covers/" | append: "social.jpg" %}
 {% endif %}
 
 <meta name="twitter:image" content="{{coverImagePath}}">

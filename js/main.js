@@ -12,8 +12,9 @@ $("a").click(function() {
 $("img").click(function() {
   $("#pageBG").show();
 });
+
 $('.tilt').tilt({
-  scale: 0.92
+  scale: .92,
 })
 
 $("#back").click(function() {

@@ -11,6 +11,7 @@ baseurl: "/YRIPortfolio"
 include: ['_pages']
 # permalink: :title/
 
+# baseurl needs to be blank for the build, just for right now, as it's useful for github but breaks hosting on a typical server.
 
 
 # Build settings
@@ -30,9 +31,6 @@ autopages:
   collections:
     permalink: /:coll/
     enabled: true
-
-paginate: 5
-paginate_path: "projects"
 
 # Defaults
 defaults:

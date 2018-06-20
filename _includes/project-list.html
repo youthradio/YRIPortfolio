@@ -6,7 +6,7 @@
     <div class="row crumb text-lowercase">
       yri / home
     </div>
-    <div class="row d-flex">
+    <div class="row d-flex flex-wrap">
       <div class="col-12 col-md-3">
         <div class="col-4">
           <div class="display-4 yrid">
@@ -15,15 +15,20 @@
         </div>
 
         <div class="lead sub-lead">
-          <p>Where young people combine programming and journalism to develop new tools, and tell dynamic stories about issues facing their environment and their community.</p>
+          <p>Where young people combine programming, design, and journalism to develop new tools and tell dynamic stories about issues facing their community.</p>
         </div>
+
+        <div class="order-1 order-md-0">
+        {% include disclaimer.html %}
+        </div>
+
       </div>
-      <div class="col-12 col-md-9 ">
+      <div class="col-12 order-0 order-md-1 col-md-9 ">
         {% include gallery-front.html %}
       </div>
     </div>
     <div class="row d-flex align-self-end">
-    {% include disclaimer.html %}
+    
   </div>
   </div>
 </div>

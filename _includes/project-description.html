@@ -20,7 +20,7 @@
     <div class="row">
       <div id="P1Accordian" data-children=".item">
         <div class="item crumb">
-          <div id="P1Shots" class="collapse show d-none d-lg-inline" role="tabpanel">
+          <div id="P1Shots" class="collapse show d-inline d-lg-inline" role="tabpanel">
             <div class="mb-3 mt-3">
               <div style="overflow-y: hidden; overflow-x: scroll;" class="d-flex justify-content-center">
               
@@ -28,7 +28,7 @@
                   {% assign imgpath = 'img/' | append: page.imgfolder %}
                   {% if image.path contains imgpath %}
                     <div class="mr-3">
-                      <img id="P1Shot1" height="100%" width="100%" data-tilt class="img-fluid tilt" src="{{ site.baseurl }}{{ image.path }}">
+                      <img id="P1Shot1" height="100%" width="100%" data-tilt class="tilt" src="{{ site.baseurl }}{{ image.path }}">
                     </div>
                   {% endif %}
                 {% endfor %}

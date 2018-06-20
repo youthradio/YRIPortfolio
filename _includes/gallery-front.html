@@ -4,7 +4,7 @@
   {% assign sorted = (site.projects | sort: 'date') | reverse %}
   {% for item in sorted %}
     <div class="col-12 col-md-4 mb-2 pr-2 text-center ">
-      <a href="{{ site.baseurl }}{{ item.url }}"><img id="hPic4" data-tilt class="img-fluid tilt" src="{{ site.baseurl }}/assets/covers/{{ item.coverimg }}"></a>
+      <a href="{{ site.baseurl }}{{ item.url }}.html"><img id="hPic4" data-tilt class="img-fluid tilt" src="{{ site.baseurl }}/assets/covers/{{ item.coverimg }}"></a>
     </div>
   {% endfor %}
   <div class="fade-out"></div>
